@@ -1,0 +1,14 @@
+[project]
+name = "document-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "certifi>=2026.7.22",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.8",
+    "langchain-google-genai>=4.4.0",
+    "langchain-tavily>=0.2.18",
+    "python-dotenv>=1.2.3",
+]
